@@ -65,7 +65,7 @@ function createPokeImage(pokeID, containerDiv){
     pokeImgContainer.classList.add('image')
 
     let pokeImage = document.createElement('img')
-    pokeImage.srcset = `https://github.com/GitJudd/teamtriangle/blob/main/pokedex/${pokeID}.png`
+    pokeImage.srcset = `https://github.com/GitJudd/teamtriangle/blob/main/pokedex/${pokeID}.png?raw=true`
     
     pokeImgContainer.append(pokeImage);
     containerDiv.append(pokeImgContainer);
