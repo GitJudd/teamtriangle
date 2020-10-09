@@ -1017,5 +1017,10 @@ a:hover { transition: all 200ms ease-in-out; }
 		1px 1px 0 #000;
 }
 
+#poke-container {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
 
 /* //responsive */
