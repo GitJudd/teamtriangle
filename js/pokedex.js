@@ -18,8 +18,12 @@ function fetchGen1Pokemon1(){
     .then(function(allpokemon){
         allpokemon.results.forEach(function(pokemon){
             fetchPokemonData(pokemon);
+            allpokemon.results.sort(sortpoke);
         })
     })
+}
+
+function sortpoke(a,b){ return a.id > b.id
 }
 
 function fetchPokemonData(pokemon){
@@ -63,7 +67,7 @@ function createTypes(types, ul){
 function createPokeImage(pokeID, containerDiv){
     let pokeImgContainer = document.createElement('div')
     pokeImgContainer.classList.add('image')
-
+    console.log('Image Added')
     let pokeImage = document.createElement('img')
     pokeImage.srcset = `https://github.com/GitJudd/teamtriangle/blob/main/pokedex/${pokeID}.png?raw=true`
     
