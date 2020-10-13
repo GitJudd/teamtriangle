@@ -3,10 +3,10 @@ console.log('Connected to Pokedex')
 document.addEventListener("DOMContentLoaded", () =>{
 
     let generateBtn = document.querySelector('#generate-pokemon1');
-    generateBtn.addEventListener('click', renderEverything1)
+    generateBtn.addEventListener('click', render1)
 })
 
-function renderEverything1(){
+function render1(){
     let allPokemonContainer = document.querySelector('#poke-container')
     allPokemonContainer.innerText = "";
     fetchGen1Pokemon1();
@@ -17,13 +17,14 @@ function fetchGen1Pokemon1(){
     .then(response => response.json())
     .then(function(allpokemon){
         allpokemon.results.forEach(function(pokemon){
-            fetchPokemonData(pokemon);
             allpokemon.results.sort(sortpoke);
+            fetchPokemonData(pokemon);
         })
     })
 }
 
-function sortpoke(a,b){ return a.id > b.id
+function sortpoke(a,b){ 
+    return a.id > b.id;
 }
 
 function fetchPokemonData(pokemon){
