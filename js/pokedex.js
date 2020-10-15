@@ -17,14 +17,14 @@ function fetchGen1Pokemon1(){
     .then(response => response.json())
     .then(function(allpokemon){
         allpokemon.results.forEach(function(pokemon){
-            allpokemon.results.sort(sortpoke);
             fetchPokemonData(pokemon);
+            allpokemon.results.sort(sortpoke);
         })
     })
 }
 
 function sortpoke(a,b){ 
-    return a.id > b.id;
+    return a.url - b.url;
 }
 
 function fetchPokemonData(pokemon){
