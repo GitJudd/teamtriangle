@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Team Triangle - Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8" />    
+    </head>
+<body>
+    <iframe style="width: 90%; position:absolute ;height: 90%;border:3px solid black;  
+     " src="https://chafloks.github.io/exp_chart/" id="Iframe"></iframe> 
+    <!--iframe tag-->
+      
+    <script> 
+        // Selecting the iframe element 
+        var frame = document.getElementById("Iframe"); 
+          
+        // Adjusting the iframe height onload event 
+        frame.onload = function() 
+        // function execute while load the iframe 
+        { 
+          // set the height of the iframe as  
+          // the height of the iframe content 
+          frame.style.height =  
+          frame.contentWindow.document.body.scrollHeight + 'px'; 
+           
+  
+         // set the width of the iframe as the  
+         // width of the iframe content 
+         frame.style.width  =  
+          frame.contentWindow.document.body.scrollWidth+'px'; 
+              
+        } 
+    </script> 
+    
+</body>
+</html>
