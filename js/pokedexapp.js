@@ -23,7 +23,7 @@ const displayPokemon = (pokemon) => {
         .map(
             (pokeData) => `
         <li class="card">
-            <img class="card-image" src="${pokeData.image}"/>
+            <img class="card-image" src="https://github.com/GitJudd/teamtriangle/blob/main/pokedex/${pokeData.id}.png?raw=true"/>
             <h2 class="card-title">${pokeData.id}. ${pokeData.name}</h2>
             <p class="card-subtitle">Type: ${pokeData.type}</p>
         </li>
