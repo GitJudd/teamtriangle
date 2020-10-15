@@ -57,52 +57,56 @@
 			</div>
 		</div>
 		  </div>
-		  <!-- Navigation -->
-		  <div class="sidebar-menu">
-			<header class="logo"> <a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="#"> <span id="logo" class="fa fa-exchange fa-5x"></span> </a> 
-			</header>
-		<div style="border-top:1px solid rgba(69, 74, 84, 0.7)"></div>
-		<div class="menu">
-			  <ul id="menu" >
-				<li id="menu-home" ><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
-				<li id="menu-login" ><a href="login.html"><i class="fa fa-user-circle"></i><span>Login/Register</span></a></li>
-				<li id="menu-about" ><a href="#"><i class="fa fa-floppy-o"></i><span>About</span><span class="fa fa-angle-right" style="float: right"></span></a>
-					<ul id="menu-about-sub" >
-					  <li id="menu-about-project" ><a href="aboutproject.html">The Project</a></li>
-					  <li id="menu-about-team" ><a href="aboutteam.html">Team Triangle</a></li>
+
+<!-- Navigation -->
+<div class="sidebar-menu">
+	<header class="logo"> <a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="#"> <span id="logo" class="fa fa-exchange fa-5x"></span> </a> 
+	</header>
+  <div style="border-top:1px solid rgba(69, 74, 84, 0.7)"></div>
+  <div class="menu">
+	  <ul id="menu" >
+	  <li id="menu-home" ><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
+	  <li id="menu-login" ><a href="login.html"><i class="fa fa-user-circle"></i><span>Login/Register</span></a></li>
+	  <li id="menu-about" ><a href="#"><i class="fa fa-floppy-o"></i><span>About</span><span class="fa fa-angle-right" style="float: right"></span></a>
+		<ul id="menu-about-sub" >
+		  <li id="menu-about-project" ><a href="aboutproject.html">The Project</a></li>
+		  <li id="menu-about-team" ><a href="aboutteam.html">Team Triangle</a></li>
+		</ul>
+		</li>
+	  <li id="menu-project" ><a href="#"><i class="fa fa-anchor"></i><span>The Project</span><span class="fa fa-angle-double-right" style="float: right"></span></a>
+		  <ul id="menu-project-sub" >
+		  <li id="menu-project-2" ><a href="pokedexnew.html">The Pokedex</a></li>
+		  <li id="menu-project-2" ><a href="#">Place Holder</a></li>
+			  <li id="menu-project-3" ><a href="#">Place Holder</a></li>
+		  </li>
 					</ul>
-				  </li>
-				<li id="menu-project" ><a href="#"><i class="fa fa-anchor"></i><span>The Project</span><span class="fa fa-angle-double-right" style="float: right"></span></a>
-					  <ul id="menu-project-sub" >
-						<li id="menu-project-2" ><a href="pokedexnew.html">The Pokedex</a></li>
-						<li id="menu-project-2" ><a href="#">Place Holder</a></li>
-				        <li id="menu-project-3" ><a href="#">Place Holder</a></li>
-						</li>
-                      </ul>
-				</li>
-				<li><a href="#"><i class="fa fa-gears"></i><span>Settings</span></a></li>
-			  </ul>
-		</div>
+	  </li>
+	  <li><a href="#"><i class="fa fa-gears"></i><span>Settings</span></a></li>
+	  </ul>
 	</div>
-	 <!-- End Navigation -->
-	</div>
-	<script src="//code.jquery.com/jquery-2.1.1.min.js"></script> 
-	<script>
-	var toggle = true;   
-		$(".sidebar-icon").click(function() {                
-  	if (toggle){
-    	$(".page-container").addClass("sidebar-collapsed").removeClass("sidebar-collapsed-back");
-    	$("#menu span").css({"position":"absolute"});
-  		}
-  	else {
-    	$(".page-container").removeClass("sidebar-collapsed").addClass("sidebar-collapsed-back");
-    	setTimeout(function() {
-      	$("#menu span").css({"position":"relative"});
-    	}, 400);
-  		}           
-	toggle = !toggle;
-	});
-	</script>
+</div>
+<!-- End Navigation -->
+</div>
+
+<script src="//code.jquery.com/jquery-2.1.1.min.js"></script> 
+
+<script>
+  var toggle = true;   
+	$(".sidebar-icon").click(function() {                
+	if (toggle){
+	  $(".page-container").addClass("sidebar-collapsed").removeClass("sidebar-collapsed-back");
+	  $("#menu span").css({"position":"absolute"});
+	  }
+	else {
+	  $(".page-container").removeClass("sidebar-collapsed").addClass("sidebar-collapsed-back");
+	  setTimeout(function() {
+		$("#menu span").css({"position":"relative"});
+	  }, 400);
+	  }           
+  toggle = !toggle;
+  });
+</script>
+
 </body>
 
 </html>

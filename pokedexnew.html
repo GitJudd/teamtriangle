@@ -13,26 +13,26 @@
       function hideURLbar() {
           window.scrollTo(0, 1);
       }
-  </script>    
+    </script>    
     <link rel="stylesheet" href="css/pokedexapp.css"/>
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=BioRhyme&display=swap" rel="stylesheet"/>
   </head>
   <body>
-    <div class="page-container">
+  <div class="page-container">
     <div class="main-bg">
-        <!-- title -->
+<!-- title -->
         <h1 class="shadow">Team Triangle Project Page</h1>
-        <!-- //title -->
-    <div class="container">
-      <h3>Gen 1 Pokedex</h3>
-      <ol id="pokedex"></ol>
+<!-- //title -->
+        <div class="container">
+          <h3>Gen 1 Pokedex</h3>
+          <ol id="pokedex"></ol>
+        </div>
     </div>
-    </div>
-    </div>
-		  <!-- Navigation -->
-		  <div class="sidebar-menu">
+   
+<!-- Navigation -->
+		<div class="sidebar-menu">
         <header class="logo"> <a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="#"> <span id="logo" class="fa fa-exchange fa-5x"></span> </a> 
         </header>
       <div style="border-top:1px solid rgba(69, 74, 84, 0.7)"></div>
@@ -56,12 +56,16 @@
           </li>
           <li><a href="#"><i class="fa fa-gears"></i><span>Settings</span></a></li>
           </ul>
-      </div>
+        </div>
     </div>
-     <!-- End Navigation -->
-    <script src="js/pokedexapp.js"></script>
-    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script> 
-    <script>
+<!-- End Navigation -->
+  </div>
+
+  <script src="js/pokedexapp.js"></script>
+    
+  <script src="//code.jquery.com/jquery-2.1.1.min.js"></script> 
+    
+  <script>
       var toggle = true;   
         $(".sidebar-icon").click(function() {                
         if (toggle){
@@ -76,6 +80,8 @@
           }           
       toggle = !toggle;
       });
-      </script>
+  </script>
+  
   </body>
+
 </html>
