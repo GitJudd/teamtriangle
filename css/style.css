@@ -229,8 +229,17 @@ h1 {
     text-transform: uppercase;
     font-weight: 400;
 }
-
 /* //title */
+h3 {
+    font-size: 2vw;
+    color: orangered;
+    text-align: center;
+    padding: 2.5vw 1vw 1vw;
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+
+
 
 .sub-main-w3 {
     margin: 1.5vw 16vw;
@@ -474,41 +483,6 @@ a.bottom-text-w3ls {
 }
 
 /* //form style */
-
-/* copyright */
-.copyright {
-    margin-top: 9vw;
-    padding-bottom: 1.5vw;
-}
-
-.copyright h2 {
-    font-size: 15px;
-    color: #fff;
-    letter-spacing: 1px;
-    text-align: center;
-    line-height: 1.8;
-}
-
-.copyright h2 a {
-    color: #fff;
-    font-weight: bold;
-    -webkit-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-    transition: 0.5s all;
-}
-
-.copyright h2 a:hover {
-    opacity: .8;
-    -webkit-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-    transition: 0.5s all;
-}
-
-/* //copyright */
 
 /* responsive */
 @media(max-width: 1080px) {
