@@ -978,7 +978,7 @@ a:hover { transition: all 200ms ease-in-out; }
   text-shadow: 4px 4px 6px rgba(0,0,0,0.4);
 }
 
-.fa-exchange {
+.fa-angle-double-right {
   color: #fff;
   margin-left: 50px;
 }
@@ -1010,7 +1010,7 @@ a:hover { transition: all 200ms ease-in-out; }
   
   .iframe-container iframe {
      border: 0;
-     height: 80vh;
+     height: 95%;
      left: 0;
      position: absolute;
      top: 0;
@@ -1018,3 +1018,4 @@ a:hover { transition: all 200ms ease-in-out; }
      
   }
 
+  
