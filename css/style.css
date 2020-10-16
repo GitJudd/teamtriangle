@@ -1018,4 +1018,20 @@ a:hover { transition: all 200ms ease-in-out; }
      
   }
 
+  .iframe-containerdark {
+    overflow: hidden;
+    padding-top: 50%;
+    position: relative;
+    background-color: #222;
+  }
+  
+  .iframe-containerdark iframe {
+     border: 0;
+     height: 95%;
+     left: 0;
+     position: absolute;
+     top: 0;
+     width: 85%;
+     
+  }
   
