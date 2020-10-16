@@ -1,12 +1,11 @@
 body,
 svg {
-    background: lightsteelblue;
+    background:#3C6478;
 }
 
 .node {
-    fill: #bbb;
-    opacity: 0.6;
-}
+    fill: #000;
+ }
 
 .node:hover,
 .node--active {
@@ -15,7 +14,7 @@ svg {
 
 .weak,
 .strong {
-    stroke: #666;
+    stroke: #000;
     stroke-opacity: 0.1;
     fill: none;
     pointer-events: none;
