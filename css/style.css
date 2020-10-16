@@ -966,20 +966,21 @@ a:hover { transition: all 200ms ease-in-out; }
 .sidebar-icon {
   position: relative;
   float: right;
-  margin-top: 32px;
-  border: 1px solid #454a54;
+  margin-top: 28px;
+  border: 1px solid #fff;
   text-align: center;
   line-height: 1;
-  font-size: 18px;
+  font-size: 22px;
   padding: 6px 8px;
   border-radius: 3px;
-  color: #888;
+  color: #3C6478;
   background-clip: padding-box;
   text-shadow: 4px 4px 6px rgba(0,0,0,0.4);
 }
 
 .fa-angle-double-right {
-  color: #fff;
+  color: #3C6478;
+  text-shadow: 0 0 5px #fff;
   margin-left: 50px;
 }
 
