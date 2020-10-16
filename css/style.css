@@ -1001,16 +1001,20 @@ a:hover { transition: all 200ms ease-in-out; }
 }
 
 
+.iframe-container {
+    overflow: hidden;
+    padding-top: 50%;
+    position: relative;
+    background-color: lightsteelblue;
+  }
   
-  .responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
+  .iframe-container iframe {
+     border: 0;
+     height: 95%;
+     left: 0;
+     position: absolute;
+     top: 0;
+     width: 85%;
+     
   }
 
-/* //responsive */
