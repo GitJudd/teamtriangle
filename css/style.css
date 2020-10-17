@@ -413,7 +413,7 @@ p.para-style-2 a {
 .input {
     margin-bottom: 1em;
     padding: 13px 15px;
-    border: 1px solid #eee;
+    border: 2px solid #eee;
     background: #eee;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1006,12 +1006,14 @@ a:hover { transition: all 200ms ease-in-out; }
     overflow: hidden;
     padding-top: 50%;
     position: relative;
-    background-color: #3C6478;
+    background-color: orangered;
+    color: #3C6478
+
   }
   
   .iframe-container iframe {
      border: 0;
-     height: 95%;
+     height: 99%;
      left: 0;
      position: absolute;
      top: 0;
@@ -1019,20 +1021,40 @@ a:hover { transition: all 200ms ease-in-out; }
      
   }
 
-  .iframe-container-dark {
+  .iframe-container-invert {
     overflow: hidden;
     padding-top: 50%;
     position: relative;
-    background-color: #222;
+    background-color: #3C6478;
+        color: orangered
+
   }
-  
-  .iframe-container-dark iframe {
-     border: 0;
-     height: 95%;
-     left: 0;
-     position: absolute;
-     top: 0;
-     width: 85%;
-     
+
+  .iframe-container-invert iframe {
+    border: 0;
+    height: 99%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 85%;
+    
+ }
+
+ .iframe-container-light {
+    overflow: hidden;
+    padding-top: 50%;
+    position: relative;
+    background-color: lightgoldenrodyellow;
+        color: orangered
+
   }
-  
+
+  .iframe-container-light iframe {
+    border: 0;
+    height: 99%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 85%;
+    
+ }
