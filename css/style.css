@@ -248,13 +248,13 @@ h3 {
 }
 
 .image-style {
-    background: url(../images/pika2.png) no-repeat bottom;
+    background: url(../images/sneezehelper.png) no-repeat bottom;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 300px;
+    min-height: 330px;
 }
 
 .image-stylehome {
@@ -1074,3 +1074,4 @@ a:hover { transition: all 200ms ease-in-out; }
     border-radius: 6px;
     background-clip: content-box;
 }
+
