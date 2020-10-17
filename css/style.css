@@ -1006,7 +1006,8 @@ a:hover { transition: all 200ms ease-in-out; }
     overflow: hidden;
     padding-top: 50%;
     position: relative;
-    background-color: orangered;
+    background-color: white;
+    opacity: .85;
     color: #3C6478
 
   }
