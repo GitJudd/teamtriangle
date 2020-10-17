@@ -1059,3 +1059,18 @@ a:hover { transition: all 200ms ease-in-out; }
     width: 85%;
     
  }
+
+ ::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #aaabae;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #303641;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    background-clip: content-box;
+}
